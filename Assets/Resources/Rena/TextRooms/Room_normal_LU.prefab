@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5863424571140532210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7506028988525698546}
+  - component: {fileID: 513878802805543533}
+  m_Layer: 0
+  m_Name: Room_normal_LU
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7506028988525698546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863424571140532210}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.91188, y: 4.2176, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &513878802805543533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863424571140532210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfaea47bc27080a4183a3c3153237513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ValidatedRoom
+  roomAuthor: Rena
+  designedRoomFile: {fileID: 4900000, guid: 0e32423930270be48b06a731371cc6aa, type: 3}
+  localTilePrefabs:
+  - {fileID: 6247058759205613148, guid: d52f3b69921a4df4f91dfd46f8e29fa1, type: 3}
+  - {fileID: 8411660658289086038, guid: e9ada2a901b744a4e8332bbe905cfaf4, type: 3}
+  - {fileID: 3338311758096957382, guid: b0649b7e535e94545a920832b03a5a43, type: 3}
+  - {fileID: 5132036240229508254, guid: 3f5b9b9cc1610cd42a75ea99d9de159d, type: 3}
+  - {fileID: 7936694274223600043, guid: 0d12aa0a2ab606c4fa98dbd3b60b37d1, type: 3}
+  - {fileID: 1335745978078546, guid: 3ea9526b8d7532b4b82f9d0fed2abf21, type: 3}
+  roomGridX: 0
+  roomGridY: 0
+  HasUpExit: 1
+  HasDownExit: 0
+  HasLeftExit: 1
+  HasRightExit: 0
+  HasUpToDown: 0
+  HasUpToLeft: 1
+  HasUpToRight: 0
+  HasDownToLeft: 0
+  HasDownToRight: 0
+  HasLeftToRight: 0
