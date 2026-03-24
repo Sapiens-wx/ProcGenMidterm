@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6759669316715452644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2645030766198627410}
+  - component: {fileID: 5913708736285549112}
+  m_Layer: 0
+  m_Name: room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2645030766198627410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6759669316715452644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.04289, y: 2.02728, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5913708736285549112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6759669316715452644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa403c9a70678b4fb10e6ac854a4b73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RoomPicker
+  roomAuthor: Lam, Rena, Rocky, Zhili
+  designedRoomFile: {fileID: 0}
+  localTilePrefabs:
+  - {fileID: 1614338125090674, guid: e2a4323992f943245aed81ae02451694, type: 3}
+  - {fileID: 6922947325829231236, guid: 9f7232b3c100447c89a00949948d38d5, type: 3}
+  - {fileID: 1035861895254804519, guid: 37fee780125954e4d86e4368af663ecb, type: 3}
+  - {fileID: 2807926974723293224, guid: 46c6b6924928a42d4bc5e3812a2935e7, type: 3}
+  - {fileID: 8328519508635709369, guid: 69e80e3cac0b54c52978779b2fd31cd5, type: 3}
+  - {fileID: 5774948275950789564, guid: 905feee2ea8024f21aae5b7dab5d2705, type: 3}
+  - {fileID: 1781302445510578, guid: 04ed8ab5fcaa31f4f846b1f913ca3048, type: 3}
+  - {fileID: 1781302445510578, guid: 865cde145006ed6418c1b9f6754e7bf3, type: 3}
+  - {fileID: 1614338125090674, guid: 9b6c7311bd25fb44987e8786699335cd, type: 3}
+  - {fileID: 5132036240229508254, guid: 3f5b9b9cc1610cd42a75ea99d9de159d, type: 3}
+  - {fileID: 6247058759205613148, guid: d52f3b69921a4df4f91dfd46f8e29fa1, type: 3}
+  - {fileID: 8411660658289086038, guid: e9ada2a901b744a4e8332bbe905cfaf4, type: 3}
+  roomGridX: 0
+  roomGridY: 0
+  RoomChoices:
+  - {fileID: -1201226820162978042, guid: 04497cfa92753fd4c96fec3253fbbaac, type: 3}
+  - {fileID: 778361246048638821, guid: 8032dde6c80814347a5babe8e0cc457f, type: 3}
+  - {fileID: -2949616030588786424, guid: fcb4385771bd9b74997de36c91140f2e, type: 3}
+  - {fileID: -2949616030588786424, guid: 5386a16cbbec97747b2c64ed30da0cab, type: 3}
