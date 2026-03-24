@@ -59,10 +59,13 @@ MonoBehaviour:
   - {fileID: 5132036240229508254, guid: 3f5b9b9cc1610cd42a75ea99d9de159d, type: 3}
   - {fileID: 6247058759205613148, guid: d52f3b69921a4df4f91dfd46f8e29fa1, type: 3}
   - {fileID: 8411660658289086038, guid: e9ada2a901b744a4e8332bbe905cfaf4, type: 3}
+  - {fileID: 1614338125090674, guid: cc970c4a28af7d840973c27be03553f1, type: 3}
+  - {fileID: 1614338125090674, guid: 426640e6c81b3fb4aa08bd79885ba5ef, type: 3}
+  - {fileID: 1781302445510578, guid: 0583362832193a944a86e0c38ba2c54a, type: 3}
+  - {fileID: 1614338125090674, guid: 1637a4a3b18becd43b2de50513b85a9f, type: 3}
+  - {fileID: 1097009321995878, guid: 7f119146519d742d7953341b07580643, type: 3}
+  - {fileID: 1387771116485768, guid: e4d00d2fcd2614042856187fc264cd0d, type: 3}
   roomGridX: 0
   roomGridY: 0
   RoomChoices:
-  - {fileID: -1201226820162978042, guid: 04497cfa92753fd4c96fec3253fbbaac, type: 3}
-  - {fileID: 778361246048638821, guid: 8032dde6c80814347a5babe8e0cc457f, type: 3}
-  - {fileID: -2949616030588786424, guid: fcb4385771bd9b74997de36c91140f2e, type: 3}
-  - {fileID: -2949616030588786424, guid: 5386a16cbbec97747b2c64ed30da0cab, type: 3}
+  - {fileID: -1201226820162978042, guid: 60373bc1d6b8b43958b745f202f7fc3a, type: 3}
