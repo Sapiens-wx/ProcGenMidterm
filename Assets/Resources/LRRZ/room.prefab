@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2645030766198627410}
-  - component: {fileID: 5913708736285549112}
+  - component: {fileID: 2436672377990787738}
   m_Layer: 0
   m_Name: room
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5913708736285549112
+--- !u!114 &2436672377990787738
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,9 +41,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6759669316715452644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fa403c9a70678b4fb10e6ac854a4b73, type: 3}
+  m_Script: {fileID: 11500000, guid: 88b47a4e3fd8b1c47b02fb5d602ddf9c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RoomPicker
+  m_EditorClassIdentifier: Assembly-CSharp::RRandRoom
   roomAuthor: Lam, Rena, Rocky, Zhili
   designedRoomFile: {fileID: 0}
   localTilePrefabs:
@@ -69,6 +69,11 @@ MonoBehaviour:
   - {fileID: 6247058759205613148, guid: 13b17e617be3adf459f0ef411a39a80e, type: 3}
   roomGridX: 0
   roomGridY: 0
+<<<<<<< HEAD
   RoomChoices:
   - {fileID: -1201226820162978042, guid: 60373bc1d6b8b43958b745f202f7fc3a, type: 3}
   - {fileID: -1201226820162978042, guid: 60373bc1d6b8b43958b745f202f7fc3a, type: 3}
+=======
+  designedRoomFiles:
+  - {fileID: 4900000, guid: 6077fad71888647fd92d801edece7a00, type: 3}
+>>>>>>> c9b37106d61097fb4c8734c9ac1ecf514e413c4d
