@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class tile_fake_player_rena : Tile {
@@ -10,6 +9,13 @@ public class tile_fake_player_rena : Tile {
 
     // 开关
     public bool isActivated = false;
+    // 方向
+    public bool isMirrorMode;
+
+    void Start()
+    {
+        isMirrorMode = Random.value > 0.5f;
+    }
 
     void FixedUpdate() {
         if (!isActivated) return;
@@ -21,16 +27,27 @@ public class tile_fake_player_rena : Tile {
 
         Vector2 attemptToMoveDir = Vector2.zero;
 
-        if (tryToMoveUp)         attemptToMoveDir += Vector2.down; 
-        else if (tryToMoveDown)  attemptToMoveDir += Vector2.up;
+        if (isMirrorMode)
+        {
+            if (tryToMoveUp)         attemptToMoveDir += Vector2.down; 
+            else if (tryToMoveDown)  attemptToMoveDir += Vector2.up;
 
-        if (tryToMoveRight)      attemptToMoveDir += Vector2.left;
-        else if (tryToMoveLeft)  attemptToMoveDir += Vector2.right;
+            if (tryToMoveRight)      attemptToMoveDir += Vector2.left;
+            else if (tryToMoveLeft)  attemptToMoveDir += Vector2.right;
+        }
+        else
+        {
+            if (tryToMoveUp)         attemptToMoveDir += Vector2.up; 
+            else if (tryToMoveDown)  attemptToMoveDir += Vector2.down;
+
+            if (tryToMoveRight)      attemptToMoveDir += Vector2.right;
+            else if (tryToMoveLeft)  attemptToMoveDir += Vector2.left;
+        }
 
         attemptToMoveDir.Normalize();
         
-        if (attemptToMoveDir.x > 0)       _sprite.flipX = true;
-        else if (attemptToMoveDir.x < 0)  _sprite.flipX = false;
+        if (attemptToMoveDir.x > 0)       _sprite.flipX = false;
+        else if (attemptToMoveDir.x < 0)  _sprite.flipX = true;
 
 
         if (attemptToMoveDir.y != 0 && attemptToMoveDir.x == 0) {
@@ -50,11 +67,20 @@ public class tile_fake_player_rena : Tile {
     private void OnCollisionEnter2D(Collision2D other)
     {
         Tile otherTile = other.gameObject.GetComponent<Tile>();
-        if (otherTile != null && otherTile.hasTag(TileTags.Player))
+        if (otherTile != null)
         {
-            other.gameObject.GetComponent<Player>().takeDamage(otherTile, 1);
+            if (otherTile.hasTag(TileTags.Player))
+            {
+                other.gameObject.GetComponent<Player>().takeDamage(otherTile, 1);
+            }
+            else if (otherTile.tileName == "FakePlayer")
+            {
+                isMirrorMode = !isMirrorMode;
+                //otherTile.GetComponent<tile_fake_player_rena>().isMirrorMode = !isMirrorMode;
+            }
         }
         
+
     }
     
     private void OnTriggerEnter2D(Collider2D other)
