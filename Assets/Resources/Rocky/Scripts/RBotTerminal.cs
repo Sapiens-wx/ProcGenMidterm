@@ -52,9 +52,14 @@ public class RBotTerminal : MonoBehaviour
                     yield return new WaitForSeconds(execInterval);
                     break;
 
-                case "move":
-                    CmdMove(n);
-                    yield return new WaitForSeconds(n*execInterval);
+                case "up":
+                    CmdUp(n);
+                    yield return new WaitForSeconds(execInterval);
+                    break;
+
+                case "down":
+                    CmdDown(n);
+                    yield return new WaitForSeconds(execInterval);
                     break;
 
                 case "shoot":
@@ -78,14 +83,11 @@ public class RBotTerminal : MonoBehaviour
                     break;
 
                 case "loop":
-                    if (n > 0)
+                    loopStack.Push(new LoopFrame
                     {
-                        loopStack.Push(new LoopFrame
-                        {
-                            startIndex = i,
-                            remaining = n
-                        });
-                    }
+                        startIndex = i,
+                        remaining = n==0?int.MaxValue:n
+                    });
                     break;
 
                 case "endloop":
@@ -117,21 +119,21 @@ public class RBotTerminal : MonoBehaviour
             v.x * sin + v.y * cos
         );
     }
-    void CmdLeft(int n)
-    {
-        float baseAngle=45;
-        n%=8;
-        float angle=baseAngle*n;
-        bot.spr.transform.localRotation*=Quaternion.Euler(new Vector3(0,0,angle));
-        direction=Rotate(direction, angle);
+    void CmdLeft(int n) {
+        direction=Vector2.left;
+        CmdMove(n);
     }
-    void CmdRight(int n)
-    {
-        float baseAngle=45;
-        n%=8;
-        float angle=-baseAngle*n;
-        bot.spr.transform.localRotation*=Quaternion.Euler(new Vector3(0,0,angle));
-        direction=Rotate(direction, angle);
+    void CmdRight(int n) {
+        direction=Vector2.right;
+        CmdMove(n);
+    }
+    void CmdUp(int n) {
+        direction=Vector2.up;
+        CmdMove(n);
+    }
+    void CmdDown(int n) {
+        direction=Vector2.down;
+        CmdMove(n);
     }
     void CmdMove(int n)
     {

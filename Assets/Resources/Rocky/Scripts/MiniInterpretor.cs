@@ -6,7 +6,7 @@ public static class MiniInterpreter
 {
     static readonly HashSet<string> ValidCommands = new HashSet<string>
     {
-        "left","right","move","shoot","pickup","drop","use","loop","endloop"
+        "left","right","up","down","shoot","pickup","drop","use","loop","endloop"
     };
 
     public static List<(string cmd, int value)> Parse(string input)
@@ -47,7 +47,7 @@ public static class MiniInterpreter
                     if (number > int.MaxValue) break;
                     i++;
                 }
-                if (number > 0 && number <= int.MaxValue)
+                if (number >= 0 && number <= int.MaxValue)
                     value = (int)number;
                 else
                     i = start;
