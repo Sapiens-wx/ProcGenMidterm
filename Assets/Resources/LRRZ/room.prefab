@@ -69,7 +69,3 @@ MonoBehaviour:
   roomGridY: 0
   designedRoomFiles:
   - {fileID: 4900000, guid: 6077fad71888647fd92d801edece7a00, type: 3}
-  - {fileID: 4900000, guid: 86b7c313750a44ba4b9f106164de1842, type: 3}
-  - {fileID: 4900000, guid: ca71f37e0ecab43c1b1f7ab40b2ee36b, type: 3}
-  - {fileID: 4900000, guid: 63bddd3651e734c99ba3c62f8b6aa61c, type: 3}
-  - {fileID: 4900000, guid: 2dab3a6a387ba4a859d097eb2cfd8bd2, type: 3}
