@@ -57,7 +57,7 @@ MonoBehaviour:
   - {fileID: 1781302445510578, guid: 865cde145006ed6418c1b9f6754e7bf3, type: 3}
   - {fileID: 1614338125090674, guid: 9b6c7311bd25fb44987e8786699335cd, type: 3}
   - {fileID: 5132036240229508254, guid: 3f5b9b9cc1610cd42a75ea99d9de159d, type: 3}
-  - {fileID: 6247058759205613148, guid: d52f3b69921a4df4f91dfd46f8e29fa1, type: 3}
+  - {fileID: 6247058759205613148, guid: fb86c1454c355d84983222b2b4e44e94, type: 3}
   - {fileID: 8411660658289086038, guid: e9ada2a901b744a4e8332bbe905cfaf4, type: 3}
   - {fileID: 1614338125090674, guid: cc970c4a28af7d840973c27be03553f1, type: 3}
   - {fileID: 1614338125090674, guid: 426640e6c81b3fb4aa08bd79885ba5ef, type: 3}
@@ -65,7 +65,10 @@ MonoBehaviour:
   - {fileID: 1614338125090674, guid: 1637a4a3b18becd43b2de50513b85a9f, type: 3}
   - {fileID: 1097009321995878, guid: 7f119146519d742d7953341b07580643, type: 3}
   - {fileID: 1387771116485768, guid: e4d00d2fcd2614042856187fc264cd0d, type: 3}
+  - {fileID: 6247058759205613148, guid: 50da3b5af27861c48a0bc7e07de5410a, type: 3}
+  - {fileID: 6247058759205613148, guid: 13b17e617be3adf459f0ef411a39a80e, type: 3}
   roomGridX: 0
   roomGridY: 0
   RoomChoices:
+  - {fileID: -1201226820162978042, guid: 60373bc1d6b8b43958b745f202f7fc3a, type: 3}
   - {fileID: -1201226820162978042, guid: 60373bc1d6b8b43958b745f202f7fc3a, type: 3}
