@@ -44,22 +44,22 @@ public class RBotTerminal : MonoBehaviour
             {
                 case "left":
                     CmdLeft(n);
-                    yield return new WaitForSeconds(execInterval);
+                    yield return new WaitForSeconds(execInterval*n);
                     break;
 
                 case "right":
                     CmdRight(n);
-                    yield return new WaitForSeconds(execInterval);
+                    yield return new WaitForSeconds(execInterval*n);
                     break;
 
                 case "up":
                     CmdUp(n);
-                    yield return new WaitForSeconds(execInterval);
+                    yield return new WaitForSeconds(execInterval*n);
                     break;
 
                 case "down":
                     CmdDown(n);
-                    yield return new WaitForSeconds(execInterval);
+                    yield return new WaitForSeconds(execInterval*n);
                     break;
 
                 case "shoot":
