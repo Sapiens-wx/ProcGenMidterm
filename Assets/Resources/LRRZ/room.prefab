@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6759669316715452644
+--- !u!1 &1896788399910994
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2645030766198627410}
-  - component: {fileID: 2436672377990787738}
+  - component: {fileID: 4561350303700290}
+  - component: {fileID: 6555571880364580818}
   m_Layer: 0
   m_Name: room
   m_TagString: Untagged
@@ -17,34 +17,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2645030766198627410
+--- !u!4 &4561350303700290
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6759669316715452644}
+  m_GameObject: {fileID: 1896788399910994}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.04289, y: 2.02728, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2436672377990787738
+--- !u!114 &6555571880364580818
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6759669316715452644}
+  m_GameObject: {fileID: 1896788399910994}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88b47a4e3fd8b1c47b02fb5d602ddf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RRandRoom
-  roomAuthor: Lam, Rena, Rocky, Zhili
+  roomAuthor: Lam Rena Zhili Rocky
   designedRoomFile: {fileID: 0}
   localTilePrefabs:
   - {fileID: 1614338125090674, guid: e2a4323992f943245aed81ae02451694, type: 3}
@@ -57,7 +57,7 @@ MonoBehaviour:
   - {fileID: 1781302445510578, guid: 865cde145006ed6418c1b9f6754e7bf3, type: 3}
   - {fileID: 1614338125090674, guid: 9b6c7311bd25fb44987e8786699335cd, type: 3}
   - {fileID: 5132036240229508254, guid: 3f5b9b9cc1610cd42a75ea99d9de159d, type: 3}
-  - {fileID: 6247058759205613148, guid: fb86c1454c355d84983222b2b4e44e94, type: 3}
+  - {fileID: 6247058759205613148, guid: d52f3b69921a4df4f91dfd46f8e29fa1, type: 3}
   - {fileID: 8411660658289086038, guid: e9ada2a901b744a4e8332bbe905cfaf4, type: 3}
   - {fileID: 1614338125090674, guid: cc970c4a28af7d840973c27be03553f1, type: 3}
   - {fileID: 1614338125090674, guid: 426640e6c81b3fb4aa08bd79885ba5ef, type: 3}
@@ -65,15 +65,18 @@ MonoBehaviour:
   - {fileID: 1614338125090674, guid: 1637a4a3b18becd43b2de50513b85a9f, type: 3}
   - {fileID: 1097009321995878, guid: 7f119146519d742d7953341b07580643, type: 3}
   - {fileID: 1387771116485768, guid: e4d00d2fcd2614042856187fc264cd0d, type: 3}
-  - {fileID: 6247058759205613148, guid: 50da3b5af27861c48a0bc7e07de5410a, type: 3}
-  - {fileID: 6247058759205613148, guid: 13b17e617be3adf459f0ef411a39a80e, type: 3}
+  - {fileID: 6247058759205613148, guid: d52f3b69921a4df4f91dfd46f8e29fa1, type: 3}
   roomGridX: 0
   roomGridY: 0
-<<<<<<< HEAD
-  RoomChoices:
-  - {fileID: -1201226820162978042, guid: 60373bc1d6b8b43958b745f202f7fc3a, type: 3}
-  - {fileID: -1201226820162978042, guid: 60373bc1d6b8b43958b745f202f7fc3a, type: 3}
-=======
   designedRoomFiles:
-  - {fileID: 4900000, guid: 6077fad71888647fd92d801edece7a00, type: 3}
->>>>>>> c9b37106d61097fb4c8734c9ac1ecf514e413c4d
+  - {fileID: 4900000, guid: fdf5564e4b8a74c408f783fd6c4f3893, type: 3}
+  - {fileID: 4900000, guid: 359d50808aee30f439bfb7439e8ab7e8, type: 3}
+  - {fileID: 4900000, guid: d153a1f388e082a41b11dfe64e8026f2, type: 3}
+  - {fileID: 4900000, guid: 9d755ad07f418d64fb6dc4c88ce67c08, type: 3}
+  - {fileID: 4900000, guid: 88b210f15ad194949afba847fc87f567, type: 3}
+  - {fileID: 4900000, guid: 5997b64a6c98ea149afbc8dba54d040e, type: 3}
+  - {fileID: 4900000, guid: 4c8cab9d6b6277b4c9831cef6a7fad92, type: 3}
+  - {fileID: 4900000, guid: 29481d7c5c913884f8cd99f299c38f66, type: 3}
+  - {fileID: 4900000, guid: 3f42183605832ae4786c6e8ef0e6e6bb, type: 3}
+  - {fileID: 4900000, guid: 417eb3fca99feb8479588f7a09daefc3, type: 3}
+  - {fileID: 4900000, guid: 21572b1b8d4376f4e8d115a7211ac6aa, type: 3}
