@@ -69,11 +69,15 @@ MonoBehaviour:
   - {fileID: 6247058759205613148, guid: 13b17e617be3adf459f0ef411a39a80e, type: 3}
   roomGridX: 0
   roomGridY: 0
-<<<<<<< HEAD
-  RoomChoices:
-  - {fileID: -1201226820162978042, guid: 60373bc1d6b8b43958b745f202f7fc3a, type: 3}
-  - {fileID: -1201226820162978042, guid: 60373bc1d6b8b43958b745f202f7fc3a, type: 3}
-=======
   designedRoomFiles:
-  - {fileID: 4900000, guid: 6077fad71888647fd92d801edece7a00, type: 3}
->>>>>>> c9b37106d61097fb4c8734c9ac1ecf514e413c4d
+  - {fileID: 4900000, guid: fdf5564e4b8a74c408f783fd6c4f3893, type: 3}
+  - {fileID: 4900000, guid: 359d50808aee30f439bfb7439e8ab7e8, type: 3}
+  - {fileID: 4900000, guid: d153a1f388e082a41b11dfe64e8026f2, type: 3}
+  - {fileID: 4900000, guid: 9d755ad07f418d64fb6dc4c88ce67c08, type: 3}
+  - {fileID: 4900000, guid: 88b210f15ad194949afba847fc87f567, type: 3}
+  - {fileID: 4900000, guid: 5997b64a6c98ea149afbc8dba54d040e, type: 3}
+  - {fileID: 4900000, guid: 4c8cab9d6b6277b4c9831cef6a7fad92, type: 3}
+  - {fileID: 4900000, guid: 29481d7c5c913884f8cd99f299c38f66, type: 3}
+  - {fileID: 4900000, guid: 3f42183605832ae4786c6e8ef0e6e6bb, type: 3}
+  - {fileID: 4900000, guid: 417eb3fca99feb8479588f7a09daefc3, type: 3}
+  - {fileID: 4900000, guid: 21572b1b8d4376f4e8d115a7211ac6aa, type: 3}
